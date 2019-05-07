@@ -1,7 +1,7 @@
 # Build-Song-Keywords-API
 
 
-* Writinh SQL queries to compute the TF-IDF score for each token in each song;
+* Writing SQL queries to compute the TF-IDF score for each token in each song;
 * Using psycopg2 package to connect database from local host;
 * Using cursor to get song-names for certain keywords (song title is sorted according to the score);
 * Using flask to build API for keywords searching;
