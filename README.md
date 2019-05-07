@@ -14,10 +14,11 @@ type are 'and', 'or'
 page is the page to show (limit 20 records one page)
 button are 'next', 'previous' to show next page or previous page
 
-## Result: https://github.com/rainyuxia0112/Build-Song-Keywords-API/blob/master/songs.json
+## Result: 
+https://github.com/rainyuxia0112/Build-Song-Keywords-API/blob/master/songs.json
 when url=http://127.0.0.1:5000/api/v1/resources/songs?query=let%20me%20love%20you&type=or&page=9&button=next
 
-![image](http://github.com/rainyuxia0112/Build-Song-Keywords-API/master/demo.jpg)
+![image](http://github.com/rainyuxia0112/Build-Song-Keywords-API/raw/master/demo.jpg)
 
 ## Built With
 * [flask](http://flask.pocoo.org/)
@@ -26,4 +27,5 @@ when url=http://127.0.0.1:5000/api/v1/resources/songs?query=let%20me%20love%20yo
 ## Authors
 * Yu Xia
 
-## in collaboration with [peterljw](https://github.com/peterljw)
+## in collaboration with 
+[peterljw](https://github.com/peterljw)
