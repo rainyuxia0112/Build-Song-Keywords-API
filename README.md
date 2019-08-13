@@ -6,22 +6,40 @@
 * Using cursor to get song-names for certain keywords (song title is sorted according to the score);
 * Using flask to build API for keywords searching;
 
-How to use it on localhost:
-The url is:http://127.0.0.1:5000/api/v1/resources/songs?query={}&type={}&page={}&button={}
-query is the keywords to search
-type are 'and', 'or'
-page is the page to show (limit 20 records one page)
-button are 'next', 'previous' to show next page or previous page
+# Get Started
 
-Result: 
-https://github.com/rainyuxia0112/Build-Song-Keywords-API/blob/master/songs.json
-when url=http://127.0.0.1:5000/api/v1/resources/songs?query=let%20me%20love%20you&type=or&page=9&button=next
+- Preparation
 
-![avatar](https://raw.githubusercontent.com/rainyuxia0112/Build-Song-Keywords-API/master/demo.jpg)
+* This duty needs to be done in python3.X environment
 
-Built With
-* [flask](http://flask.pocoo.org/)
-* [psycopg2](http://initd.org/psycopg/) - python package for postgres
+* Needs to activate a new python environment
+
+```shell
+source ./bin/activate   
+```
+
+- Installtion
+
+```shell
+pip3 install -r requirement.txt 
+```
+* Note：[flask](http://flask.pocoo.org/)
+
+```shell
+FLASK_APP=entity_keyword_api.py flask run 
+* Serving Flask app "entity_keyword_api"
+* Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+```
+
+# Introduction to this api
+
+|URL|Method|Return
+|----|--------|----
+|*http://144.202.28.242:8000/*|GET|
+|*http://144.202.28.242/api/resources/type:80*|GET|get song names that are included keywords
+
+# Contributors
+[Mos Zhang](https://github.com/mosroot), [Yu Xia](https://github.com/rainyuxia0112)
 
 Authors
 * Yu Xia
