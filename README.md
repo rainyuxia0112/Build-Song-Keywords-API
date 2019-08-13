@@ -36,7 +36,8 @@ FLASK_APP=entity_keyword_api.py flask run
 |URL|Method|Return
 |----|--------|----
 |*http://144.202.28.242:8000/*|GET|
-|*http://144.202.28.242/api/resources/type:80*|GET|get song names that are included keywords
+|*http://144.202.28.242/api/resources/search?type={}:8000*|GET|get song names that are included keywords
+|*http://144.202.28.242/api/resources/search?name={}:8000*|GET|get a perticular song's keywords
 
 # Contributors
 [Mos Zhang](https://github.com/mosroot), [Yu Xia](https://github.com/rainyuxia0112)
