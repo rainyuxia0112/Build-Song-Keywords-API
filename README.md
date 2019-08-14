@@ -1,6 +1,5 @@
 # Build-Song-Keywords-API
 
-
 * Writing SQL queries to compute the TF-IDF score for each token in each song;
 * Using psycopg2 package to connect database from local host;
 * Using cursor to get song-names for certain keywords (song title is sorted according to the score);
@@ -38,9 +37,6 @@ FLASK_APP=entity_keyword_api.py flask run
 |*http://144.202.28.242:8000/*|GET|
 |*http://144.202.28.242/api/resources/search?type={}:8000*|GET|get song names that are included keywords
 |*http://144.202.28.242/api/resources/search?name={}:8000*|GET|get a perticular song's keywords
-
-# Contributors
-[Mos Zhang](https://github.com/mosroot), [Yu Xia](https://github.com/rainyuxia0112)
 
 Authors
 * Yu Xia
