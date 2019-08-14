@@ -25,8 +25,8 @@ pip3 install -r requirement.txt
 * Note：[flask](http://flask.pocoo.org/)
 
 ```shell
-FLASK_APP=entity_keyword_api.py flask run 
-* Serving Flask app "entity_keyword_api"
+FLASK_APP=app2.py flask run 
+* Serving Flask app "app2"
 * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
 ```
 
